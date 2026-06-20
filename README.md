@@ -42,7 +42,16 @@ Amazon_Review_Graph/
 
 ---
 
-## Dataset
+## Requisitos
+
+- Python 3.8 ou superior
+- Jupyter Notebook / JupyterLab / VS Code / Google Colab
+
+---
+
+## Instalação e Execução
+
+### Dataset
 
 > **Atenção:** o arquivo do dataset **não está incluído** neste repositório
 > devido à limitação de tamanho de arquivos do GitHub (máx. 100MB).
@@ -59,16 +68,6 @@ Amazon_Review_Graph/
     └── Video_Games.jsonl.gz   ← aqui
 ```
 
----
-
-## Requisitos
-
-- Python 3.8 ou superior
-- Jupyter Notebook / JupyterLab / VS Code / Google Colab
-
----
-
-## Instalação e Execução
 
 ### Opção 1 — Localmente
 
