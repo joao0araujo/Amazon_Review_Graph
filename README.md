@@ -1,4 +1,4 @@
-# Análise de Grafos — Amazon Video Games Reviews
+# Análise de Grafos - Amazon Video Games Reviews
 
 Trabalho prático da disciplina de Teoria dos Grafos (UFBA, 2026).
 Análise estrutural do grafo de avaliações de jogos eletrônicos da Amazon,
@@ -16,9 +16,9 @@ e extração da maior componente conexa, o grafo final possui
 
 A análise está dividida em três partes:
 
-- **Parte I** — Métricas estruturais (grau, densidade, diâmetro, clusterização, etc.)
-- **Parte II** — Algoritmos da disciplina (BFS, DFS, Dijkstra, Floyd-Warshall, Tarjan, MST, etc.)
-- **Parte III** — Propriedades de redes complexas (small-world, lei de potência, robustez)
+- **Parte I** - Métricas estruturais (grau, densidade, diâmetro, clusterização, etc.)
+- **Parte II** - Algoritmos da disciplina (BFS, DFS, Dijkstra, Floyd-Warshall, Tarjan, MST, etc.)
+- **Parte III** - Propriedades de redes complexas (small-world, lei de potência, robustez)
 
 ---
 
@@ -29,7 +29,7 @@ Amazon_Review_Graph/
 ├── Notebooks/
 │   └── Códigos.ipynb          # Notebook principal com toda a análise
 ├── Dados/
-│   └── Video_Games.jsonl.gz   # Dataset (baixar separadamente — ver abaixo)
+│   └── Video_Games.jsonl.gz   # Dataset (baixar separadamente - ver abaixo)
 ├── Imagens/
 │   ├── teaser_figure.png
 │   ├── grafo_visualizacao.png
@@ -69,7 +69,7 @@ Amazon_Review_Graph/
 ```
 
 
-### Opção 1 — Localmente
+### Opção 1 - Localmente
 
 **1. Clone o repositório**
 ```bash
@@ -98,11 +98,11 @@ pip install -r requirements.txt
 jupyter notebook Notebooks/Códigos.ipynb
 ```
 
-### Opção 2 — Google Colab
+### Opção 2 - Google Colab
 
 Faça upload do arquivo `Notebooks/Códigos.ipynb` diretamente no
 [Google Colab](https://colab.research.google.com). As dependências
-já estão disponíveis no ambiente do Colab — não é necessário instalar
+já estão disponíveis no ambiente do Colab - não é necessário instalar
 o `requirements.txt`. Lembre-se de fazer upload do dataset também.
 
 ---
@@ -116,16 +116,16 @@ de cima para baixo. Algumas células são computacionalmente intensas:
 |----------|----------------|
 | BFS / DFS (30×) | ~30s |
 | Dijkstra (30×) | ~2min |
-| Diâmetro — 500 amostras BFS | ~8min |
+| Diâmetro - 500 amostras BFS | ~8min |
 | Floyd-Warshall (10×) | ~20s |
 | Tarjan (10×) | ~2min |
-| Robustez — 30 repetições | ~5min |
+| Robustez - 30 repetições | ~5min |
 
 ---
 
 ## Autores
 
-- João Araújo — Universidade Federal da Bahia (UFBA)
+- João Araújo - Universidade Federal da Bahia (UFBA)
 
 ## Disciplina
 
